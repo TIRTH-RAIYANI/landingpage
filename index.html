@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soller - Get the Sun to Power Your Home</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Decorative Background Elements -->
+        <img src="../assets/images/img_vector_1.svg" class="decorative-circles" alt="Decorative circles">
+        <img src="../assets/images/img_circles.png" class="decorative-circles" alt="Decorative background">
+        <img src="../assets/images/img_circles_yellow_700.svg" class="decorative-yellow" alt="Yellow decorative elements">
+        <img src="../assets/images/img_rectangle_15.png" class="decorative-bg" alt="Background decoration">
+        <div class="decorative-ellipse-1"></div>
+        <div class="decorative-ellipse-2"></div>
+        <img src="../assets/images/img_rectangle_15_yellow_700.png" class="decorative-bg-2" alt="Yellow background decoration">
+        <div class="decorative-circle-3">
+            <div class="decorative-circle-inner"></div>
+        </div>
+
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">soller</div>
+            <nav class="nav-menu">
+                <a href="#products" class="nav-item">Products</a>
+                <a href="#solutions" class="nav-item">Solutions</a>
+                <a href="#services" class="nav-item">Services</a>
+                <a href="#configure" class="nav-item">Configure</a>
+            </nav>
+            <div class="contact-info">
+                <img src="../assets/images/img_icon_jamicons_outline_logos_headset.svg" class="contact-icon" alt="Contact icon">
+                <span class="contact-text">555 818 282</span>
+            </div>
+            <a href="#quote" class="cta-button" onclick="openQuoteModal()">
+                <span class="cta-text">Request a Quote</span>
+                <img src="../assets/images/img_icon_jamicons_outline_logos_arrowright.svg" class="cta-icon" alt="Arrow right">
+            </a>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">Get the Sun to Power Your Home</h1>
+                <p class="hero-description">Viverra viverra nibh enim et aliquam, enim. Tempor, sit mus viverra orci dui consequat turpis scelerisque.</p>
+                <a href="#quote" class="hero-cta" onclick="openQuoteModal()">
+                    <span class="hero-cta-text">Request a Quote</span>
+                    <img src="../assets/images/img_icon_jamicons_outline_logos_arrowright.svg" class="cta-icon" alt="Arrow right">
+                </a>
+            </div>
+            <img src="../assets/images/img_right.png" class="hero-image" alt="Solar panel installation">
+            <div class="hero-decorative"></div>
+        </section>
+
+        <!-- Hero Quote -->
+        <div class="hero-quote">
+            "Viverra viverra nibh enim et aliquam, enim. Tempor, sit mus viverra orci dui consequat turpis scelerisque faucibus."
+        </div>
+        <div class="hero-author">
+            <img src="../assets/images/img_user_thumb.png" class="author-avatar" alt="Rwanda Melflor">
+            <div class="author-info">
+                <div class="author-name">Rwanda Melflor</div>
+                <div class="author-company">zerowaste.com</div>
+            </div>
+        </div>
+
+        <!-- Pick the Sun Section -->
+        <section class="pick-sun-section">
+            <div class="section-label">No more waste</div>
+            <h2 class="section-title">Pick the Sun</h2>
+            <p class="section-description">Et pulvinar nec interdum integer id urna molestie porta nullam. A, donec ornare sed turpis pulvinar purus maecenas quam a. Erat porttitor pharetra sed in mauris elementum sollicitudin.</p>
+        </section>
+
+        <!-- Dashboard Preview -->
+        <div class="dashboard-preview">
+            <div class="dashboard-header">
+                <div class="dashboard-dots">
+                    <div class="dot dot-red"></div>
+                    <div class="dot dot-yellow"></div>
+                    <div class="dot dot-green"></div>
+                </div>
+                <div class="dashboard-url">www.soller.com</div>
+                <div class="dashboard-controls">
+                    <img src="../assets/images/img_icon_jamicons_outline_logos_chevronleft.svg" class="control-icon" alt="Previous">
+                    <img src="../assets/images/img_icon_jamicons_outline_logos_chevronright.svg" class="control-icon" alt="Next">
+                </div>
+            </div>
+            <div class="dashboard-content">
+                <!-- Dashboard content with charts and data visualization -->
+                <div style="position: relative; width: 100%; height: 100%; background-color: #e0f2fe;">
+                    <!-- Left sidebar -->
+                    <div style="position: absolute; top: 0; left: 0; width: 184px; height: 100%; background-color: #bfdbfe; padding: 51px 22px;">
+                        <div style="width: 140px; height: 20px; background-color: #93c5fd; border-radius: 10px; margin-bottom: 71px;"></div>
+                        <div style="margin-bottom: 20px;">
+                            <img src="../assets/images/img_ellipse_5_stroke.svg" style="width: 29px; height: 27px; margin-bottom: 8px;" alt="Chart icon">
+                            <div style="width: 103px; height: 10px; background-color: #ffffff; border-radius: 5px;"></div>
+                        </div>
+                        <div style="margin-bottom: 20px;">
+                            <img src="../assets/images/img_rectangle_10_stroke.svg" style="width: 29px; height: 27px; margin-bottom: 8px;" alt="Rectangle icon">
+                            <div style="width: 74px; height: 10px; background-color: #ffffff; border-radius: 5px;"></div>
+                        </div>
+                        <div>
+                            <img src="../assets/images/img_polygon_1.svg" style="width: 29px; height: 24px; margin-bottom: 8px;" alt="Triangle icon">
+                            <div style="width: 90px; height: 10px; background-color: #ffffff; border-radius: 5px;"></div>
+                        </div>
+                    </div>
+                    
+                    <!-- Main content area -->
+                    <div style="position: absolute; top: 55px; left: 243px; right: 0; bottom: 0;">
+                        <!-- Top chart -->
+                        <div style="width: 121px; height: 13px; background-color: #bfdbfe; border-radius: 6px; margin-bottom: 274px;"></div>
+                        
+                        <!-- Heart icon -->
+                        <img src="../assets/images/img_icon_ionicons_outline_heartoutline.svg" style="position: absolute; top: 274px; left: 191px; width: 44px; height: 41px;" alt="Heart icon">
+                        
+                        <!-- Bottom charts -->
+                        <div style="position: absolute; top: 288px; left: 0;">
+                            <div style="width: 64px; height: 13px; background-color: #bfdbfe; border-radius: 6px; margin-bottom: 20px;"></div>
+                            <div style="width: 97px; height: 13px; background-color: #bfdbfe; border-radius: 6px; margin-left: 79px; margin-top: -33px;"></div>
+                        </div>
+                        
+                        <!-- Description areas -->
+                        <img src="../assets/images/img_description.svg" style="position: absolute; top: 357px; left: 0; width: 206px; height: 34px;" alt="Description">
+                        <img src="../assets/images/img_description.svg" style="position: absolute; top: 70px; left: 0; width: 324px; height: 34px;" alt="Description">
+                        
+                        <!-- Right side frames -->
+                        <img src="../assets/images/img_frame_2.svg" style="position: absolute; top: 7px; right: 462px; width: 184px; height: 238px; border-radius: 20px;" alt="Frame 2">
+                        <img src="../assets/images/img_frame_3.svg" style="position: absolute; top: 7px; right: 287px; width: 184px; height: 175px; border-radius: 20px;" alt="Frame 3">
+                        <img src="../assets/images/img_frame_5.svg" style="position: absolute; top: 274px; right: 196px; width: 184px; height: 266px; border-radius: 20px;" alt="Frame 5">
+                        <img src="../assets/images/img_frame_4.svg" style="position: absolute; top: 211px; right: 287px; width: 184px; height: 297px; border-radius: 20px;" alt="Frame 4">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Personalized Services Section -->
+        <section class="services-section">
+            <div class="services-preview">
+                <!-- Mobile app preview -->
+                <div style="position: relative; width: 100%; height: 100%; background-color: #e0f2fe; border-radius: 20px; overflow: hidden;">
+                    <!-- Top navigation -->
+                    <div style="position: absolute; top: 784px; left: 0; width: 420px; height: 115px; background-color: #e0f2fe; border: 1px solid #ffffff; display: flex; align-items: center; justify-content: space-around; padding: 28px;">
+                        <img src="../assets/images/img_icon_ionicons_outline_pulseoutline.svg" style="width: 57px; height: 57px;" alt="Pulse icon">
+                        <img src="../assets/images/img_icon_ionicons_outline_searchoutline.svg" style="width: 57px; height: 57px;" alt="Search icon">
+                        <div style="display: flex; flex-direction: column; gap: 10px;">
+                            <img src="../assets/images/img_vector_stroke.svg" style="width: 43px; height: 3px;" alt="Menu line">
+                            <img src="../assets/images/img_vector_stroke.svg" style="width: 43px; height: 3px;" alt="Menu line">
+                            <img src="../assets/images/img_vector_stroke.svg" style="width: 43px; height: 3px;" alt="Menu line">
+                        </div>
+                    </div>
+                    
+                    <!-- Back button -->
+                    <img src="../assets/images/img_icon_ionicons_outline_arrowbackoutline.svg" style="position: absolute; top: 92px; left: 38px; width: 57px; height: 57px;" alt="Back arrow">
+                    
+                    <!-- Progress bar -->
+                    <div style="position: absolute; top: 111px; left: 130px; width: 158px; height: 19px; background-color: #bae6fd; border-radius: 9px;"></div>
+                    
+                    <!-- Description -->
+                    <img src="../assets/images/img_description_white_a700.svg" style="position: absolute; top: 207px; left: 38px; width: 268px; height: 48px;" alt="Description">
+                    
+                    <!-- Cards -->
+                    <div style="position: absolute; top: 294px; left: 38px; width: 144px; height: 196px; background-color: #ffffff; border: 2px solid #38bdf8; border-radius: 20px; box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.067);">
+                        <img src="../assets/images/img_group_1.png" style="width: 119px; height: 170px; margin: 26px 0;" alt="Group 1">
+                    </div>
+                    
+                    <div style="position: absolute; top: 294px; left: 201px; width: 144px; height: 196px; background-color: #ffffff; border: 2px solid #38bdf8; border-radius: 20px; box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.067);">
+                        <img src="../assets/images/img_group_1_light_blue_100.svg" style="width: 91px; height: 136px; margin: 36px 32px;" alt="Group 1 light blue">
+                    </div>
+                    
+                    <img src="../assets/images/img_frame_4_white_a700.svg" style="position: absolute; top: 294px; right: 56px; width: 144px; height: 196px; border-radius: 20px;" alt="Frame 4">
+                    
+                    <!-- Main image -->
+                    <img src="../assets/images/img_mask_group.svg" style="position: absolute; top: 601px; left: 38px; width: 343px; height: 235px;" alt="Mask group">
+                    
+                    <!-- Rectangle overlay -->
+                    <img src="../assets/images/img_rectangle_7.svg" style="position: absolute; top: 664px; left: 170px; width: 211px; height: 201px;" alt="Rectangle 7">
+                    
+                    <!-- Bottom rectangle -->
+                    <div style="position: absolute; top: 548px; left: 38px; width: 187px; height: 14px; background-color: #ffffff; border-radius: 7px;"></div>
+                </div>
+            </div>
+            
+            <div class="services-content">
+                <div class="section-label">Services</div>
+                <h2 class="section-title">Personalized services</h2>
+                <p class="section-description">Pretium lectus ultrices sit tempor, sit ullamcorper volutpat et et. Auctor turpis semper id sit ornare maecenas lectus sed.</p>
+                
+                <div class="services-grid">
+                    <div class="service-card">
+                        <img src="../assets/images/img_icon_iconoir_truck.svg" class="service-icon" alt="Truck icon">
+                        <h3 class="service-title">Et mauris</h3>
+                        <p class="service-text">Posuere quis sed mauris non curabitur pretium elementum eget. Feugiat sed maecenas eu accumsan tristique.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <img src="../assets/images/img_icon_iconoir_trophy.svg" class="service-icon" alt="Trophy icon">
+                        <h3 class="service-title">Eget sit</h3>
+                        <p class="service-text">Sit bibendum donec dolor fames neque vulputate non sit aliquam. Consequat turpis natoque leo, massa.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <img src="../assets/images/img_icon_iconoir_trekking.svg" class="service-icon" alt="Trekking icon">
+                        <h3 class="service-title">Imperdiet pellentesque</h3>
+                        <p class="service-text">Platea arcu dapibus non magna cursus lectus id sollicitudin. Enim viverra parturient tristique nulla.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <img src="../assets/images/img_icon_iconoir_piggybank.svg" class="service-icon" alt="Piggy bank icon">
+                        <h3 class="service-title">Non libero</h3>
+                        <p class="service-text">Congue mauris sem vel, urna viverra. Urna, nibh leo suscipit purus ut sed eros, consectetur viverra.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service preview image -->
+        <img src="../assets/images/img_frame_4_white_a700.svg" style="position: absolute; top: 2308px; left: 444px; width: 144px; height: 197px; border-radius: 20px;" alt="Service preview">
+
+        <!-- Powerful Features Section -->
+        <section class="features-section">
+            <div class="features-content">
+                <div class="section-label">System features</div>
+                <h2 class="section-title">Powerful features</h2>
+                <p class="section-description">Pretium lectus ultrices sit tempor, sit ullamcorper volutpat et et. Auctor turpis semper id sit ornare maecenas lectus sed.</p>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <img src="../assets/images/img_icon_iconoir_tournament.svg" class="service-icon" alt="Tournament icon">
+                        <h3 class="service-title">Erat sit</h3>
+                        <p class="service-text">Id quis lectus pharetra, ultricies integer montes, amet, gravida consectetur. Nunc convallis fringilla nisl magna sagittis.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <img src="../assets/images/img_icon_iconoir_thumbsup.svg" class="service-icon" alt="Thumbs up icon">
+                        <h3 class="service-title">Ullamcorper arcu</h3>
+                        <p class="service-text">Ipsum at id hendrerit amet faucibus commodo quam nullam. Lectus auctor habitant duis dictum.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <img src="../assets/images/img_icon_iconoir_transitiontop.svg" class="service-icon" alt="Transition icon">
+                        <h3 class="service-title">Et pellentesque</h3>
+                        <p class="service-text">Mi vitae, massa eu molestie massa euismod volutpat condimentum. Blandit molestie ullamcorper hendrerit purus lorem vulputate.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <img src="../assets/images/img_icon_iconoir_perspectiveview.svg" class="service-icon" alt="Perspective icon">
+                        <h3 class="service-title">Amet egestas</h3>
+                        <p class="service-text">Elementum, libero, lacus, vel ullamcorper at velit id. Malesuada velit et, ullamcorper malesuada amet, felis.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="features-preview">
+                <!-- Features app preview -->
+                <div style="position: relative; width: 100%; height: 100%; background-color: #e0f2fe; border-radius: 20px; overflow: hidden;">
+                    <!-- Bottom image -->
+                    <img src="../assets/images/img_bottom.png" style="position: absolute; top: 534px; left: 38px; width: 381px; height: 163px;" alt="Bottom image">
+                    
+                    <!-- Heart icon -->
+                    <img src="../assets/images/img_icon_ionicons_outline_heartoutline.svg" style="position: absolute; top: 325px; left: 324px; width: 57px; height: 57px;" alt="Heart icon">
+                    
+                    <!-- Progress bars -->
+                    <div style="position: absolute; top: 344px; left: 38px; width: 84px; height: 19px; background-color: #bae6fd; border-radius: 9px;"></div>
+                    <div style="position: absolute; top: 344px; left: 141px; width: 127px; height: 19px; background-color: #bae6fd; border-radius: 9px;"></div>
+                    
+                    <!-- Description -->
+                    <img src="../assets/images/img_description_white_a700.svg" style="position: absolute; top: 392px; left: 38px; width: 268px; height: 48px;" alt="Description">
+                    
+                    <!-- Main image -->
+                    <img src="../assets/images/img_mask_group_white_a700.svg" style="position: absolute; top: 51px; left: 38px; width: 343px; height: 235px;" alt="Mask group white">
+                    
+                    <!-- Bottom navigation -->
+                    <div style="position: absolute; top: 784px; left: 0; width: 420px; height: 115px; background-color: #e0f2fe; border: 1px solid #ffffff; display: flex; align-items: center; justify-content: space-around; padding: 28px;">
+                        <img src="../assets/images/img_icon_ionicons_outline_pulseoutline.svg" style="width: 57px; height: 57px;" alt="Pulse icon">
+                        <img src="../assets/images/img_icon_ionicons_outline_searchoutline.svg" style="width: 57px; height: 57px;" alt="Search icon">
+                        <div style="display: flex; flex-direction: column; gap: 10px;">
+                            <img src="../assets/images/img_vector_stroke.svg" style="width: 43px; height: 3px;" alt="Menu line">
+                            <img src="../assets/images/img_vector_stroke.svg" style="width: 43px; height: 3px;" alt="Menu line">
+                            <img src="../assets/images/img_vector_stroke.svg" style="width: 43px; height: 3px;" alt="Menu line">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials-section">
+            <div class="purple-ellipse-1"></div>
+            <div class="purple-ellipse-2"></div>
+            <img src="../assets/images/img_vector.png" style="position: absolute; top: 655px; left: 0; width: 647px; height: 1499px;" alt="Vector background">
+            
+            <div class="testimonials-header">
+                <div class="section-label">Join other Sun harvesters</div>
+                <h2 class="section-title">Make something awesome</h2>
+                <p class="section-description">Dui euismod iaculis libero, aliquet vitae et elementum porttitor. Eleifend mi tristique condimentum congue fusce nunc, donec magnis commodo.</p>
+            </div>
+            
+            <a href="#quote" class="testimonials-cta" onclick="openQuoteModal()">
+                <span class="hero-cta-text">Request a Quote</span>
+                <img src="../assets/images/img_icon_jamicons_outline_logos_arrowright.svg" class="cta-icon" alt="Arrow right">
+            </a>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <img src="../assets/images/img_icon_iconoir_thunderstorm.svg" class="testimonial-icon" alt="Thunderstorm icon">
+                    <p class="testimonial-text">Purus maecenas quis elit eu, aliquet. Tellus porttitor ut sollicitudin sit non fringilla. Quam nunc volutpat senectus neque eget amet pharetra, euismod. Tempus, nunc, molestie imperdiet curabitur commodo euismod.</p>
+                    <div class="testimonial-author">
+                        <img src="../assets/images/img_user_thumb_64x64.png" class="testimonial-avatar" alt="Jane Cooper">
+                        <div class="testimonial-info">
+                            <div class="testimonial-name">Jane Cooper</div>
+                            <div class="testimonial-detail">10KWh</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <img src="../assets/images/img_icon_iconoir_threestars.svg" class="testimonial-icon" alt="Three stars icon">
+                    <p class="testimonial-text">Vehicula sit sit pharetra bibendum ut risus accumsan. Purus, in metus, enim, ipsum morbi euismod pellentesque. Mattis pharetra accumsan eget est mi enim, id. Sit quam tortor eu tellus non, in euismod integer.</p>
+                    <div class="testimonial-author">
+                        <img src="../assets/images/img_user_thumb_1.png" class="testimonial-avatar" alt="Ralph Edwards">
+                        <div class="testimonial-info">
+                            <div class="testimonial-name">Ralph Edwards</div>
+                            <div class="testimonial-detail">32KWh</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <img src="../assets/images/img_icon_iconoir_tower.svg" class="testimonial-icon" alt="Tower icon">
+                    <p class="testimonial-text">Viverra lacus suspendisse elit, adipiscing orci, non turpis etiam sapien. Viverra blandit sem neque pretium. Duis enim semper fermentum consequat aenean libero. Blandit porta leo condimentum dolor, nisi, aliquet ante laoreet.</p>
+                    <div class="testimonial-author">
+                        <img src="../assets/images/img_user_thumb_2.png" class="testimonial-avatar" alt="Courtney Henry">
+                        <div class="testimonial-info">
+                            <div class="testimonial-name">Courtney Henry</div>
+                            <div class="testimonial-detail">6KWh</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <img src="../assets/images/img_icon_iconoir_timer.svg" class="testimonial-icon" alt="Timer icon">
+                    <p class="testimonial-text">Hendrerit augue ut nec, senectus quis integer netus. Sagittis fusce rhoncus magnis habitant amet amet. Egestas amet habitasse amet risus tellus ornare. Hendrerit augue ut nec, senectus. Mauris egestas feugiat leo vitae praesent neque, et.</p>
+                    <div class="testimonial-author">
+                        <img src="../assets/images/img_user_thumb_3.png" class="testimonial-avatar" alt="Cameron Williamson">
+                        <div class="testimonial-info">
+                            <div class="testimonial-name">Cameron Williamson</div>
+                            <div class="testimonial-detail">12KWh</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="navigation-buttons">
+                <button class="nav-button" onclick="previousTestimonial()">
+                    <img src="../assets/images/img_icon_iconoir_arrowleft.svg" alt="Previous">
+                </button>
+                <button class="nav-button" onclick="nextTestimonial()">
+                    <img src="../assets/images/img_icon_iconoir_arrowleft.svg" style="transform: rotate(180deg);" alt="Next">
+                </button>
+            </div>
+        </section>
+
+        <!-- Case Studies Section -->
+        <section class="case-studies-section">
+            <!-- Decorative elements -->
+            <img src="../assets/images/img_ellipse_4.png" class="case-ellipse-1" alt="Ellipse 4">
+            <div class="case-ellipse-2"></div>
+            <div class="case-ellipse-3"></div>
+            <img src="../assets/images/img_ellipse_8.png" class="case-image-1" alt="Case study image 1">
+            <img src="../assets/images/img_ellipse_10.png" class="case-image-2" alt="Case study image 2">
+            <img src="../assets/images/img_ellipse_13.png" class="case-image-3" alt="Case study image 3">
+            <div class="case-ellipse-4"></div>
+            <div class="case-ellipse-5"></div>
+            
+            <div class="section-label">Case studies</div>
+            <h2 class="section-title">Check how our systems have helped others</h2>
+            <p class="section-description">Pretium lectus ultrices sit tempor, sit ullamcorper volutpat et et. Auctor turpis semper id sit ornare maecenas lectus sed.</p>
+            
+            <a href="#case-studies" class="case-studies-link" onclick="showCaseStudies()">
+                <span class="case-studies-text">Find Case Studies</span>
+                <img src="../assets/images/img_icon_jamicons_outline_logos_arrowright.svg" class="case-studies-icon" alt="Arrow right">
+            </a>
+        </section>
+
+        <!-- Final CTA Section -->
+        <section class="final-cta-section">
+            <img src="../assets/images/img_ellipse_1.png" class="final-ellipse-1" alt="Final ellipse 1">
+            <img src="../assets/images/img_ellipse_2.png" class="final-ellipse-2" alt="Final ellipse 2">
+            <img src="../assets/images/img_ellipse_3.png" class="final-ellipse-3" alt="Final ellipse 3">
+            
+            <div class="final-cta-content">
+                <div class="section-label">Get the Sun to power your home</div>
+                <h2 class="section-title">All the power that you need for your house is now available</h2>
+            </div>
+            
+            <a href="#quote" class="testimonials-cta" onclick="openQuoteModal()">
+                <span class="hero-cta-text">Request a Quote</span>
+                <img src="../assets/images/img_icon_jamicons_outline_logos_arrowright.svg" class="cta-icon" alt="Arrow right">
+            </a>
+            
+            <div class="final-cta-note">Egestas fringilla aliquam leo</div>
+            
+            <!-- Laptop Preview -->
+            <div class="laptop-preview">
+                <div class="laptop-screen">
+                    <div class="laptop-display">
+                        <img src="../assets/images/img_screen.png" class="laptop-content" alt="Screen preview">
+                    </div>
+                </div>
+                <img src="../assets/images/img_bottom_blue_gray_700.svg" class="laptop-base" alt="Laptop base">
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-left">
+                <img src="../assets/images/img_group_46.svg" class="footer-logo" alt="Soller logo">
+                <div class="footer-brand">Soller</div>
+                <div class="footer-copyright">@ 2023 Soller, Inc. All rights reserved.</div>
+            </div>
+            <div class="footer-links">
+                <a href="#terms" class="footer-link">Terms</a>
+                <a href="#privacy" class="footer-link">Privacy</a>
+                <a href="#support" class="footer-link">Support</a>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Quote Request Modal -->
+    <div id="quoteModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeQuoteModal()">&times;</span>
+            <h2>Request a Quote</h2>
+            <div id="successMessage" class="success-message">Thank you! Your quote request has been submitted successfully.</div>
+            <div id="errorMessage" class="error-message">Please fill in all required fields.</div>
+            <form id="quoteForm" onsubmit="submitQuote(event)">
+                <div class="form-group">
+                    <label class="form-label" for="name">Full Name *</label>
+                    <input type="text" id="name" name="name" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" class="form-input">
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="address">Property Address *</label>
+                    <input type="text" id="address" name="address" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="energy">Current Monthly Energy Bill</label>
+                    <select id="energy" name="energy" class="form-input">
+                        <option value="">Select range</option>
+                        <option value="under-100">Under $100</option>
+                        <option value="100-200">$100 - $200</option>
+                        <option value="200-300">$200 - $300</option>
+                        <option value="over-300">Over $300</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="message">Additional Information</label>
+                    <textarea id="message" name="message" class="form-input form-textarea" placeholder="Tell us about your solar energy goals..."></textarea>
+                </div>
+                <button type="submit" class="form-submit">Submit Quote Request</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
